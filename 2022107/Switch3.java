@@ -9,7 +9,7 @@ public class Switch3{
         System.out.print("請輸入你的成績(只能輸入0~100喔!)：");
         grade = input.nextInt();
  	
-	while(grade>100){  //防呆
+	while(grade>100||grade<0){  //防呆
 	    System.out.println("手有問題嗎?");
 	    System.out.print("再輸入一次：");
 	    grade = input.nextInt();

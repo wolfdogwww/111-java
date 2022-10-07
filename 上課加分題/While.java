@@ -1,4 +1,4 @@
-*/
+/*
 0
  1
   2
@@ -27,6 +27,14 @@ public class While{
             System.out.println(grade);
             grade++;
             space=grade;
+/*老師的寫法：
+string space=" ";
+while(grade<10){
+    System.out.printf("d",grade);
+    grade++;
+    space = space+ " ";
+		}*/
+
 	}
     }
 }

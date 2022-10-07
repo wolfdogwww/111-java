@@ -11,6 +11,7 @@ public class Switch{
  
         
         switch(grade/10){
+	    case 10:
 	    case 9:
 		System.out.println('A');
 		break;
